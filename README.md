@@ -32,6 +32,9 @@ npm test
 
 You should see `winners: 1` and `PASS: token was single-use.`
 
+The token is single-use: of five simultaneous consumers, exactly one can
+consume it. The observed winner count is 1.
+
 ## Submit
 
 Open a Pull Request containing your `token-service.js`, `test.js`, and paste the
